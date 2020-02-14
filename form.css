@@ -1,0 +1,23 @@
+.bg
+{
+    width: 50%;
+    height: 500px;
+    background-color: bisque;
+}
+.a
+{
+    width: 70%;
+    height: 50px;
+    background-color: bisque;
+    float: right;
+}
+.b
+{
+    width: 50%;
+    height: 600px;
+    background-color: bisque;
+}
+.c
+{
+
+}

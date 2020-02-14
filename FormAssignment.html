@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title> Form of a Student Information </title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+<div class="b">
+<div class="bg">
+<h3>Student Form </h3>
+<table>
+        <tr>
+            <td><label for="name">Name:</label></td> 
+            <td><input type="text" id="name" placeholder="Enter your full name"></td>
+        </tr>
+        <tr>
+            <td><label for="PhoneNo">Phone No:</label></td>
+            <td><input type="tel" id="PhoneNo" placeholder="+880-1234-567-891"></td> 
+        </tr>
+        <tr>
+                <td><label for="email">E-mail:</label></td>
+                <td><input type="email" id="email" placeholder="abc@def.com"></td> 
+        </tr>
+        <tr>
+                <td><label for="adrs">Address: </label></td>
+                <td><input type="text" id="adrs" placeholder="Enter your current address"></td>
+        </tr>
+        <tr>
+            <td><label for="bdate">Birth Date: </label></td>
+            <td><input type="date" id="bdate" placeholder="Enter your Birthdate"></td></td>
+            
+        </tr>
+        
+</table>
+  <form>
+
+        <dl>
+            <dt>B.SC duration: </dt>
+                <dd><label for="bstart">   Start: </label>
+                <input type="date" id="bstart"></dd>
+                <dd><label for="bend">   End: </label>
+                <input type="date" id="bend" ><br></dd>
+        </dl> 
+       
+        <p>Skills: </p>
+        <input type="checkbox" id="skill1">
+        <label for="skill1">Android Development </label><br>
+        <input type="checkbox" id="skill2">
+        <label for="skill2"> Web Development</label><br>
+        <input type="checkbox" id="skill3">
+        <label for="skill3"> Grapics Design</label><br>
+        <input type="checkbox" id="skill4">
+        <label for="skill4">Machine Learning</label><br>
+        <p> Gender: </p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male </label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female </label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+       
+  </form>
+  
+
+</div>
+<div class="a">
+        <input type="submit" value="Submit">
+</div>
+</div>
+</body>
+
+
+</html>
